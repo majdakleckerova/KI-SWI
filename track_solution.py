@@ -25,15 +25,16 @@ class ChangeHandler(FileSystemEventHandler):
     def run_tests(self):
         self.iterations += 1
         print(f"[{self.iterations}] Spouštím test: {test_file}")
-        result = subprocess.run(["python", test_file], capture_output=True, text=True)
+        test_module = test_file.replace("/", ".").removesuffix(".py")
+        result = subprocess.run([sys.executable, "-m", test_module], capture_output=True, text=True)
         if result.returncode == 0:
             duration = time.time() - self.start_time
-            print(f"✅ Testy úspěšné po {self.iterations} iteracích")
-            print(f"⏱️ Celkový čas: {duration:.2f} sekund")
+            print(f"Testy úspěšné po {self.iterations} iteracích")
+            print(f"Celkový čas: {duration:.2f} sekund")
             observer.stop()
         else:
             print(result.stdout)
-            print("❌ Test selhal, čekám na další úpravu...")
+            print("Test selhal, čekám na další úpravu...")
 
 if __name__ == "__main__":
     if not solution_file.exists():
