@@ -160,3 +160,24 @@ def is_palindrom(s: str) -> bool:
 | U3A   | Algoritmická     | Lidský partner   | 12        | 3        | Známá úloha, ale potřeba ručně ošetřit podmínky a správně ladit výstup. |
 | U3B   | Algoritmická     | GitHub Copilot   | 3         | 1        | Copilot navrhl celé řešení přesně, nebylo potřeba nic měnit. |
 
+## Subjektivní hodnocení kvality kódu (Jan Čmuchař)
+
+| Úloha | Styl řešení     | Srozumitelnost | Technická kvalita | Celkové skóre |
+|-------|------------------|----------------|--------------------|----------------|
+| U1A   | Lidský partner   | 4              | 3                  | 7 / 10         |
+| U1B   | GitHub Copilot   | 5              | 4                  | 9 / 10         |
+| U2A   | Lidský partner   | 4              | 4                  | 8 / 10         |
+| U2B   | GitHub Copilot   | 5              | 5                  | 10 / 10        |
+| U3A   | Lidský partner   | 4              | 3                  | 7 / 10         |
+| U3B   | GitHub Copilot   | 5              | 4                  | 9 / 10         |
+
+## Introspektivní hodnocení po dokončení každé úlohy
+
+| Úloha | Styl řešení     | PAS – míra úzkosti (1–5) | IMI – motivace (1–5) | CLS – vnímaná spolupráce (1–5) |
+|-------|------------------|---------------------------|-----------------------|-------------------------------|
+| U1A   | Lidský partner   | 3.4                       | 4.5                   | 4.8                           |
+| U1B   | GitHub Copilot   | 2.2                       | 4.2                   | 3.7                           |
+| U2A   | Lidský partner   | 3.1                       | 4.3                   | 4.5                           |
+| U2B   | GitHub Copilot   | 1.9                       | 4.0                   | 3.5                           |
+| U3A   | Lidský partner   | 3.3                       | 4.6                   | 4.9                           |
+| U3B   | GitHub Copilot   | 2.1                       | 4.1                   | 3.6                           |
