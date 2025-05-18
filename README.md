@@ -24,7 +24,7 @@ KI-SWI/
 
 ## Spuštění testu
 ```bash
-python tests/test_U1A.py
+python3 -m tests/test_U1A.py
 ```
 ## Postup
 1. Otevři řešení úlohy v `/solutions`
@@ -37,34 +37,4 @@ python3 track_solution.py solutions/U3B.py tests/test_U3B.py
 5. Jestli test selže, opravuj funkci a znovu ukládej – skript pokaždé test znovu spustí a počítá iterace.
 6. Jakmile test projde, terminál vypíše: Testy úspěšné, Počet iterací, Celkový čas od první úpravy
 
-## Diagram
-┌──────────────────────────┐
-│      track_solution.py   │
-│  - sleduje změny souboru │
-│  - spouští testy         │
-│  - měří čas a iterace    │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│   solutions/u3b.py       │   <-- (příklad úlohy - Palindrom)
-│  - tvoje řešení úlohy    │
-│  - funkce is_palindrom() │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│   tests/test_U3B_palindrom.py │
-│  - importuje u3b.py      │
-│  - spouští unittesty     │
-│  - ověřuje správnost     │
-└────────────┬─────────────┘
-             │
-             ▼
-      Výsledek testu:
-   ┌──────────────────────┐
-   │  ❌ Test fail → čekám │
-   │  ✅ Test success →   │
-   │     - vypíšu čas     │
-   │     - počet iterací  │
-   └──────────────────────┘
+
