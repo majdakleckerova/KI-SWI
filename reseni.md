@@ -160,7 +160,7 @@ def is_palindrom(s: str) -> bool:
 | U3A   | Algoritmická     | Lidský partner   | 12        | 3        | Známá úloha, ale potřeba ručně ošetřit podmínky a správně ladit výstup. |
 | U3B   | Algoritmická     | GitHub Copilot   | 3         | 1        | Copilot navrhl celé řešení přesně, nebylo potřeba nic měnit. |
 
-## Subjektivní hodnocení kvality kódu (Jan Čmuchař)
+## Subjektivní hodnocení kvality kódu
 
 | Úloha | Styl řešení     | Srozumitelnost | Technická kvalita | Celkové skóre |
 |-------|------------------|----------------|--------------------|----------------|
@@ -181,3 +181,25 @@ def is_palindrom(s: str) -> bool:
 | U2B   | GitHub Copilot   | 1.9                       | 4.0                   | 3.5                           |
 | U3A   | Lidský partner   | 3.3                       | 4.6                   | 4.9                           |
 | U3B   | GitHub Copilot   | 2.1                       | 4.1                   | 3.6                           |
+
+
+## Output tabulky
+| Úloha | Styl     | Čas (min) | Iterace | Srozumitelnost (1–5) | Technická úroveň (1–5) | Celkové hodnocení kvality (2–10) |
+|-------|----------|-----------|---------|--------------|------------------|----------------|
+| U1A   | Člověk   | 28        | 6       | 4            | 3                | 7              |
+| U1B   | AI       | 12        | 3       | 5            | 4                | 9              |
+| U2A   | Člověk   | 10        | 2       | 4            | 4                | 8              |
+| U2B   | AI       | 6         | 1       | 5            | 5                | 10             |
+| U3A   | Člověk   | 12        | 3       | 4            | 3                | 7              |
+| U3B   | AI       | 3         | 1       | 5            | 4                | 9              |
+
+---
+
+| Úloha | Styl     | Úzkost (PAS) | Motivace (IMI) | Spolupráce (CLS) |
+|-------|----------|----------------|------------------|---------------------|
+| U1A   | Člověk   | 3.4            | 4.5              | 4.8                 |
+| U1B   | AI       | 2.2            | 4.2              | 3.7                 |
+| U2A   | Člověk   | 3.1            | 4.3              | 4.5                 |
+| U2B   | AI       | 1.9            | 4.0              | 3.5                 |
+| U3A   | Člověk   | 3.3            | 4.6              | 4.9                 |
+| U3B   | AI       | 2.1            | 4.1              | 3.6                 |

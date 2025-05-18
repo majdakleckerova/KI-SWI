@@ -1,0 +1,72 @@
+Dotazník – introspektivní metriky po každé programovací úloze
+============================================================
+
+1. Programming Anxiety Scale (PAS)
+Škála: 1 = zcela nesouhlasím, 5 = zcela souhlasím
+
+1. Byla jsem nervózní, že se při řešení nedokážu udržet v klidu jako můj partner.
+2. Zneklidňovalo mě, že nejsem na úrovni lidí, co mají víc programovacích zkušeností.
+3. Přítomnost zkušenějšího partnera mě znervózňovala.
+4. Stresovalo mě, když partner vyřešil něco, co mně nešlo.
+5. Cítila jsem napětí, když partner mluvil o věcech, kterým jsem nerozuměla.
+6. Bálo mě, že udělám chybu a partner mě bude hodnotit negativně.
+7. Měla jsem pocit, že programování úplně nechápu.
+8. Cítila jsem, že jen opakuji naučené bez pochopení principů.
+9. Měla jsem strach, že rychle zapomenu, co jsem se naučila.
+10. Pochybovala jsem o sobě při navrhování algoritmu.
+11. Ztratila jsem se v kódu, když začal být složitý.
+12. Nedůvěřovala jsem si při psaní řešení.
+13. Děsilo mě, kolik témat ještě v programování nechápu.
+14. Největší stres mi způsobovalo hledání a oprava chyb.
+
+Vyhodnocení: Průměr všech odpovědí. (R) položky převést: 6 - odpověď
+
+============================================================
+
+2. Intrinsic Motivation Inventory (IMI)
+Škála: 1 = zcela neplatí, 5 = naprosto platí
+
+1. Řešení této úlohy mě opravdu bavilo.
+2. Tato aktivita byla zábavná.
+3. Byla to nudná činnost. (R)
+4. Úloha mě vůbec nezaujala. (R)
+5. Přišlo mi to velmi zajímavé.
+6. Úlohu jsem si užila.
+7. Často jsem si během úlohy uvědomovala, že mě to baví.
+8. Měla jsem pocit, že mi to šlo dobře.
+9. V porovnání s ostatními bych řekla, že jsem to zvládla dobře.
+10. Postupně jsem se v úloze cítila jistě.
+11. Byla jsem spokojená se svým výkonem.
+12. Připadala jsem si schopná a jistá.
+13. Měla jsem pocit, že na to nestačím. (R)
+14. Věnovala jsem tomu hodně úsilí.
+15. Nesnažila jsem se naplno. (R)
+16. Opravdu jsem se snažila.
+17. Bylo pro mě důležité, aby se úloha povedla.
+18. Moc jsem se do toho nevkládala. (R)
+19. Byla jsem úplně v klidu. (R)
+20. Cítila jsem se během úlohy napjatě.
+21. Řešení pro mě bylo uvolněné. (R)
+22. Cítila jsem úzkost.
+23. Vnímala jsem tlak a stres.
+
+Vyhodnocení: Průměr v rámci každé podškály. (R) položky převést: 6 - odpověď
+
+============================================================
+
+3. Collaborative Learning & Sense of Community (CLS/SoC)
+Škála: 1 = nikdy, 5 = vždy
+
+1. Spolupráce mě motivovala víc se snažit.
+2. Práce ve dvojici mě bavila.
+3. Měla jsem pocit, že spolupráce podporuje kreativitu.
+4. Společné řešení mi přišlo efektivní.
+5. Díky partnerovi jsem rozvíjela sociální dovednosti.
+6. Společné hledání řešení mě těšilo.
+7. Při spolupráci jsme přicházely s více nápady.
+8. Práce s partnerem mi byla příjemná.
+9. Myslím, že jsme spolu dosáhli lepšího výsledku.
+10. Vysvětlování věcí partnerovi mě unavovalo. (R)
+11. Spolupráce tímto způsobem mi nevyhovovala. (R)
+
+Vyhodnocení: Průměr všech odpovědí. (R) položky převést: 6 - odpověď

@@ -9,17 +9,25 @@
 ### Struktura projektu
 ```bash
 KI-SWI/
-├── solutions/                
-│   ├── u1a.py                
-│   ├── u3b.py                
+├── solutions/    # předepsané požadované názvy funkcí s input vars a output vars, viz. def funkce(var:int): pass             
+│   ├── U1A.py                
+│   ├── U1B.py      
+│   ├── U2A.py        
+│   ├── U2B.py        
+│   ├── U3A.py        
+│   ├── U3B.py                  
 │
-├── tests/                    # testovací skripty
-│   ├── test_U1A_piskvorky.py
-│   ├── test_U3B_palindrom.py
+├── tests/                    # testovací skripty (celkem 26 jednotkových testů, navrženo pár testů pro každou úlohu)
+│   ├── test_U1A.py
+│   ├── test_U1B.py
+│   ├── test_U2A.py
+│   ├── test_U2B.py
+│   ├── test_U3A.py
+│   ├── test_U3B.py
 │
 ├── track_solution.py         # měření času + iterací
 ├── README.md                 # návod
-├── zadani.md                 # zadání úloh
+├── zadani.md                 # zadání všech úloh
 ```
 
 ## Spuštění testu
