@@ -175,12 +175,13 @@ def is_palindrom(s: str) -> bool:
 
 | Úloha | Styl řešení     | PAS – míra úzkosti (1–5) | IMI – motivace (1–5) | CLS – vnímaná spolupráce (1–5) |
 |-------|------------------|---------------------------|-----------------------|-------------------------------|
-| U1A   | Lidský partner   | 3.4                       | 4.5                   | 4.8                           |
-| U1B   | GitHub Copilot   | 2.2                       | 4.2                   | 3.7                           |
-| U2A   | Lidský partner   | 3.1                       | 4.3                   | 4.5                           |
-| U2B   | GitHub Copilot   | 1.9                       | 4.0                   | 3.5                           |
-| U3A   | Lidský partner   | 3.3                       | 4.6                   | 4.9                           |
-| U3B   | GitHub Copilot   | 2.1                       | 4.1                   | 3.6                           |
+| U1A   | Lidský partner   | 2.2                       | 4.2                   | 3.7                           |
+| U1B   | GitHub Copilot   | 3.4                       | 4.5                   | 4.8                           |
+| U2A   | Lidský partner   | 1.9                       | 4.0                   | 3.5                           |
+| U2B   | GitHub Copilot   | 3.1                       | 4.3                   | 4.5                           |
+| U3A   | Lidský partner   | 2.1                       | 4.1                   | 3.6                           |
+| U3B   | GitHub Copilot   | 3.3                       | 4.6                   | 4.9                           |
+
 
 
 ## Output tabulky
@@ -197,9 +198,9 @@ def is_palindrom(s: str) -> bool:
 
 | Úloha | Styl     | Úzkost (PAS) | Motivace (IMI) | Spolupráce (CLS) |
 |-------|----------|----------------|------------------|---------------------|
-| U1A   | Člověk   | 3.4            | 4.5              | 4.8                 |
-| U1B   | AI       | 2.2            | 4.2              | 3.7                 |
-| U2A   | Člověk   | 3.1            | 4.3              | 4.5                 |
-| U2B   | AI       | 1.9            | 4.0              | 3.5                 |
-| U3A   | Člověk   | 3.3            | 4.6              | 4.9                 |
-| U3B   | AI       | 2.1            | 4.1              | 3.6                 |
+| U1A   | Člověk   | 2.2            | 4.2              | 3.7                 |
+| U1B   | AI       | 3.4            | 4.5              | 4.8                 |
+| U2A   | Člověk   | 1.9            | 4.0              | 3.5                 |
+| U2B   | AI       | 3.1            | 4.3              | 4.5                 |
+| U3A   | Člověk   | 2.1            | 4.1              | 3.6                 |
+| U3B   | AI       | 3.3            | 4.6              | 4.9                 |
